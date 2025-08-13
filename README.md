@@ -26,8 +26,24 @@ Makes a json file like
 
 ## Install
 
+```shell
+pip3 install git+https://github.com/userbradley/mkdocs-pages-json-plugin.git
+```
+
+This is until I can figure out how to put this on PyPi or what ever
+
 ```yaml
 plugins:
   - pages-json:
         output_file: 'api/pages.json'
 ```
+
+## Using
+
+You should now be able to go to your site, and the path you chose (for example `api/pages.json`) and see the file.
+
+An example of this in action: https://documentation.breadnet.co.uk/api/pages.json
+
+---
+
+Built by Bradley, with love in the UK. Licensed under MIT so you can do what ever you want with this
