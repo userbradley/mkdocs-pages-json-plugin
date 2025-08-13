@@ -5,9 +5,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name="mkdocs-pages-json-plugin",
-    version="0.0.1",
+    version="0.0.2",
     description="An MkDocs plugin that generates a pages.json file with page metadata.",
-    long_description="An MkDocs plugin that generates a pages.json file at the root of the site, containing the title, URL, last modified date, and a custom review date for all pages.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     keywords="mkdocs python json plugin",
     author="Bradley Stannard",
     author_email="opensource@breadnet.co.uk",
