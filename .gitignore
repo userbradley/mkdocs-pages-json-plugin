@@ -2,3 +2,4 @@ mkdocs_pages_json_plugin.egg*
 .venv
 dist
 build
+.idea

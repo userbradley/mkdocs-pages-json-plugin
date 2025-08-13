@@ -1,6 +1,9 @@
 # .github/workflows/ci-cd.yml
 on:
   push:
+    paths:
+      - mkdocs_pages_json_plugin/**
+      - setup.py
     branches:
       - main
 jobs:
