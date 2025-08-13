@@ -27,10 +27,15 @@ Makes a json file like
 ## Install
 
 ```shell
+pip3 install mkdocs-pages-json-plugin
+```
+
+Or directly from the git repo
+
+```shell
 pip3 install git+https://github.com/userbradley/mkdocs-pages-json-plugin.git
 ```
 
-This is until I can figure out how to put this on PyPi or what ever
 
 ```yaml
 plugins:
@@ -43,6 +48,11 @@ plugins:
 You should now be able to go to your site, and the path you chose (for example `api/pages.json`) and see the file.
 
 An example of this in action: https://documentation.breadnet.co.uk/api/pages.json
+
+## What's the point of this?
+
+Eventually I will get around to writing a Mattermost bot or something that will go through the API and send messages when a 
+page has expired. 
 
 ---
 
